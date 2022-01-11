@@ -1,0 +1,80 @@
+@media screen and (min-width: 480px) {
+    #outer {
+        margin-top: 25px;
+        width:1000px;
+        height: 600px;
+        border: 1px;
+        border-style: solid;
+    }
+    section {
+        height: 58%;
+    }
+    footer {
+        height: 28%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #outer {
+        margin-top: 25px;
+        width:500px;
+        height: 860px;
+        border: 1px;
+        border-style: solid;
+    }
+    section {
+        height: 71%;
+    }
+    footer {
+        height: 19%;
+    }
+}
+
+header {
+    border-style: groove;
+    margin: 2px;
+    height: 60px;
+    background-color: rgb(235, 185, 225);
+}
+
+section {
+    border-style: groove;
+    margin: 2px;
+    background-color: rgb(135, 135, 230);
+}
+
+footer {
+    border-style: groove;
+    margin: 2px;
+    background-color: rgb(235, 185, 225);
+}
+
+.logo_field {
+    float:left;
+    margin-left: 25px;
+    margin-top: 5px;
+    width:50px;
+    height:50px;
+}
+
+.heading {
+    float:right;
+    margin-right: 20px;
+}
+
+.pic1 {
+    float: right;
+    width: 175px;
+    height: 70px;
+    margin-right: 35px;
+}
+
+.pic2 {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 115px;
+    height: 80px;
+    margin-left: 15px;
+    margin-right: 25px;
+    padding: 5px;
+}
